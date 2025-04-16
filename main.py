@@ -12,7 +12,7 @@ models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 origins = [
-    "https://haringmgapirata.github.io", 
+    "https://shairanerio.github.io", 
 ]
 
 app.add_middleware(
