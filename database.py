@@ -2,7 +2,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-database_url = os.environ.get("vitePostgresql")
+database_url = os.environ.get("PIT4-APPDEV")
 
 if not database_url:
     raise ValueError("DATABASE_URL environment variable not set")
